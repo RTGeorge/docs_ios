@@ -6,6 +6,7 @@ open func isFocus(_ jid :XMPPJID) -> Bool {
   return jid.resource.contains("focus")
 }
 ```
+
 ### Parameters
 
 | Name        | Description |

@@ -2,6 +2,7 @@
 ## Top level client library object
 
 > Include the FoxDen client library and print out the version.
+
 ```swift
 override open func send(_ element: DDXMLElement!) {
   // Override the sendElement to include our nickname XEP-0172
@@ -21,11 +22,10 @@ override open func send(_ element: DDXMLElement!) {
 }
 ```
 
-The main entry point for the client library provides the operations as described in [Operations](#operations-object).
+The main entry point for the client library provides the operations as described in [Operations](#operations).
 
 ## Session Object
 
-> Create a session with example data (returns not-authorized unless given valid token).
 ```swift
 open func isUsersJid(_ jid :XMPPJID) -> Bool {
   if let resource = jid.resource , resource == xmppStream.uuid {
