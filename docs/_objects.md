@@ -22,8 +22,6 @@ override open func send(_ element: DDXMLElement!) {
 }
 ```
 
-The main entry point for the client library provides the operations as described in [Operations](#operations).
-
 ## Session Object
 
 ```swift
@@ -36,4 +34,3 @@ open func isUsersJid(_ jid :XMPPJID) -> Bool {
 }
 ```
 
-The session object is used to add and remove video & screen-share streams to a conference.
