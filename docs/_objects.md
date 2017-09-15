@@ -1,8 +1,6 @@
 # Objects
 ## Top level client library object
 
-> Include the FoxDen client library and print out the version.
-
 ```swift
 override open func send(_ element: DDXMLElement!) {
   // Override the sendElement to include our nickname XEP-0172
